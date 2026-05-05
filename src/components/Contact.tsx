@@ -141,7 +141,7 @@ export default function Contact() {
                       name="name"
                       type="text"
                       required
-                      placeholder="Shariful Islam"
+                      placeholder="Enter your name"
                       className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-accent focus:outline-none transition-all placeholder:text-white/20"
                     />
                   </div>
@@ -154,7 +154,7 @@ export default function Contact() {
                       name="email"
                       type="email"
                       required
-                      placeholder="hello@world.com"
+                      placeholder="Enter your email"
                       className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-accent focus:outline-none transition-all placeholder:text-white/20"
                     />
                   </div>
@@ -168,7 +168,7 @@ export default function Contact() {
                     name="message"
                     rows={4}
                     required
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me what's on your mind..."
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:border-accent focus:outline-none transition-all placeholder:text-white/20 resize-none"
                   />
                 </div>
