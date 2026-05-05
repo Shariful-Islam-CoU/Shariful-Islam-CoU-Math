@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
+import resume from '../assets/Shariful_Islam_Resume.pdf';
 
 const NAV_LINKS = [
   { name: "About", href: "about", label: "About" },
@@ -88,7 +89,7 @@ export default function Navbar() {
             </motion.a>
           ))}
           <motion.a
-            href="/src/assets/Shariful_Islam_Resume.pdf"
+            href={resume}
             download="Shariful_Islam_Resume.pdf"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
